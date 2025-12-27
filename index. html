@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkflowWizerd | Wizard Mode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white flex items-center justify-center min-h-screen">
+
+    <div class="max-w-md w-full p-6 bg-slate-800 rounded-2xl shadow-xl border border-slate-700">
+        <header class="mb-8">
+            <h1 class="text-blue-400 font-bold text-sm tracking-widest uppercase">WorkflowWizerd</h1>
+            <div class="w-full bg-slate-700 h-1 mt-4 rounded-full overflow-hidden">
+                <div class="bg-blue-500 h-full w-1/3 transition-all duration-700"></div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="text-2xl font-semibold mb-4 text-slate-100">Step 1: Define Project Goal</h2>
+            <p class="text-slate-400 mb-10 leading-relaxed">
+                "Complexity is the enemy of execution." Start by writing down the final outcome of your workflow.
+            </p>
+
+            <button class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-xl shadow-lg transition duration-200">
+                Mark as Complete →
+            </button>
+        </main>
+        
+        <footer class="mt-8 text-center">
+            <p class="text-xs text-slate-500">Focused Mode Active • No Distractions</p>
+        </footer>
+    </div>
+
+</body>
+</html>
